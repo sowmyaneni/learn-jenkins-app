@@ -15,7 +15,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "CI=true JEST_JUNIT_OUTPUT='./junit' JEST_JUNIT_OUTPUT_NAME='results.xml' react-scripts test --reporters=default --reporters=jest-junit",
+    "test": "CI=true JEST_JUNIT_OUTPUT='./junit' JEST_JUNIT_OUTPUT_NAME='junit.xml' react-scripts test --reporters=default --reporters=jest-junit",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
