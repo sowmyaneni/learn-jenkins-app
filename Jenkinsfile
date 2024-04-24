@@ -26,10 +26,7 @@ pipeline {
                 sh '''
                     echo "Test Stage ..."
                     test -f build/index.html
-                      #  echo "File exists."
-                    # else
-                        # echo "File does not exist."
-                    # fi
+                    npm test
                 '''
             }
            
